@@ -96,7 +96,7 @@ function init() {
 
     }
     audio = new Audio();
-    audio.volume = 0.15;    
+    audio.volume = 0.4;    
     audio.controls = true;    
     audio.src = song.url;
     console.log("Audio: ", audio)
